@@ -1,0 +1,9 @@
+#btn{
+
+ -fx-background-color:red;
+}
+
+#label{
+   -fx-border-radius:2px;
+   -fx-border-color:black;
+}

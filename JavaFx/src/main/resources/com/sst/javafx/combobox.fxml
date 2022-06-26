@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="" prefHeight="427.0" prefWidth="371.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sst.javafx.TestingComboBox">
+   <children>
+      <ComboBox fx:id="comboBox" layoutX="103.0" layoutY="89.0" onAction="#comboBoxOnChange" prefHeight="37.0" prefWidth="183.0" promptText="Choose laptops" />
+      <Button layoutX="103.0" layoutY="275.0" mnemonicParsing="false" onAction="#onAddClick" text="Add" />
+      <TextField fx:id="value" layoutX="103.0" layoutY="195.0" prefHeight="37.0" prefWidth="183.0" promptText="Enter new brand" />
+      <Button layoutX="218.0" layoutY="275.0" mnemonicParsing="false" onAction="#onDeleteClick" text="Delete" />
+   </children>
+</AnchorPane>
